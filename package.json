@@ -1,0 +1,13 @@
+{
+  "name": "snabbdom-comps",
+  "scripts": {
+    "1": "browserify src/counterEx.js      -o dist/counterEx.js",
+    "2": "browserify src/counterPairEx.js  -o dist/counterPairEx.js",
+    "3": "browserify src/counterArrayEx.js -o dist/counterArrayEx.js",
+    "all": "npm run 1 && npm run 2 && npm run 3"
+  },
+  "dependencies": {
+    "browserify": "*",
+    "snabbdom": "*"
+  }
+}
